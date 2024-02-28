@@ -44,7 +44,7 @@ export default function Navbar() {
       </div>
 
       {/* div mobile  */}
-      <div className=" px-10 md:hidden">
+      <div className="px-10 md:hidden">
         {/* navmobile */}
         <div className="flex justify-between h-16 items-center md:block">
           {/* boton menu  */}
@@ -90,7 +90,7 @@ export default function Navbar() {
         </div>
 
         {/* nav-items-mobile */}
-        <div className="space-y-1 pb-3 border-t py-2 md:hidden ">
+        <div className=" hidden space-y-1 pb-3 border-t py-2 md:hidden ">
           <a
             href="#"
             className="block bg-yellow-600 text-white py-2 px-3 rounded-md "
