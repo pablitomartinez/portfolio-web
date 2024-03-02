@@ -7,5 +7,5 @@
 }
 
 .btn-primary {
-    @apply bg-purple-600 text-white
+  @apply bg-purple-600 text-white;
 }

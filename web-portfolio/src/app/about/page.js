@@ -3,23 +3,21 @@ import React from "react";
 export default function About() {
   return (
     // div contenedor
-    <div className="flex flex-col items-center justify-center min-h-screen">
+    <div className="flex flex-col items-center justify-center min-h-screen p-5 text-center ">
       {/* //titulo */}
       <h1 className="text-3xl mb-2">
-        Hola soy Pablo y soy full stack developer
+        Hola soy Full Stack Developer
       </h1>{" "}
-      <h3 className="text-lg m-b4">Jujuy - Argentina</h3>
-      <p>
+      <h3 className="text-lg m-b4">De Jujuy - Argentina</h3>
+      <p className="text-center mb-8">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
         since the 1500s.
       </p>
       <div className="btn-custom btn-primary flex items-center">
-        Descargar CV
-        <span>
+        <span className="mr-4" >
           <svg
-            className="text-white"
-            data-slot="icon"
+            class="w-6 h-6"
             fill="none"
             stroke-width="1.5"
             stroke="currentColor"
@@ -30,10 +28,11 @@ export default function About() {
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
-              d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m.75 12 3 3m0 0 3-3m-3 3v-6m-1.5-9H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"
+              d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
             ></path>
           </svg>
         </span>
+        Descargar CV
       </div>
     </div>
   );
