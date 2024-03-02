@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.btn-custom {
+  @apply px-6 py-4 rounded-full shadow-sm font-medium;
+}
+
+.btn-primary {
+    @apply bg-purple-600 text-white
+}
