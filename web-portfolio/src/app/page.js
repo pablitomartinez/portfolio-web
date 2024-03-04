@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <main>
       <Navbar />
-      <Article />
-      <Footer/>      
+      {/* <Article /> */}
+      {/* <Footer/>       */}
     </main>
   );
 }
