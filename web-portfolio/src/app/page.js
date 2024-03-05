@@ -6,11 +6,9 @@ import Header from "./Header";
 export default function Home() {
   return (
     <main>
-      <Navbar />
-      {/* <Article /> */}
-      {/* <Footer/>       */}
-      {/* <Home/> */}
+     <div>
       <Header/>
+     </div>
     </main>
   );
 }

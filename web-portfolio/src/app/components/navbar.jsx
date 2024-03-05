@@ -1,4 +1,12 @@
+
 export default function Navbar() {
+  const navegacion = [
+    "About",
+    "work",
+    "Skill",
+    "Contact"
+  ];
+
   return (
     <div>
       {/* div desktop  */}
@@ -43,7 +51,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* div mobile  */}
+      {/* dxiv mobile  */}
       <div className="px-10 md:hidden bg-slate-900 text-white">
         {/* navmobile */}
         <div className="flex justify-between h-16 items-center md:block">
